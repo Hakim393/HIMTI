@@ -115,7 +115,7 @@ const Card = ({ division, onClose }) => {
               src={division.image}
               alt={division.title}
               className="w-40 h-40 md:w-56 md:h-56 rounded-full object-cover border-4 border-blue-600 shadow-lg transition-transform duration-300 hover:scale-110"
-              style={{ position: 'relative', zIndex: 1 }}
+              style={{ position: "relative", zIndex: 1 }}
             />
           </div>
           <div className="bg-gray-100 p-6 rounded-xl w-full text-center">
@@ -131,8 +131,6 @@ const Card = ({ division, onClose }) => {
     </div>
   );
 };
-
-
 
 // Konten Tentang
 const Tentang = () => {
@@ -161,11 +159,12 @@ const Tentang = () => {
 
   return (
     <>
-      <section className="flex flex-col items-center p-10 bg-[#a5c2fe] m-5 border-8 border-white rounded-3xl shadow-xl">
-        <h1 className="text-4xl font-bold mb-6 text-center text-black">
+      <section className="flex flex-col items-center p-10  bg-[#a5c2fe] m-5 border-8 border-white rounded-3xl shadow-xl">
+      <div className="bg-white p-6 m-4 rounded-lg shadow-md mt-1 w-full">
+      <h1 className="text-4xl font-bold mb-6 text-center text-[#0061FF]">
           Himpunan Mahasiswa Teknik Informatika (HIMTI)
         </h1>
-        <p className="mb-10 font-poppins text-black leading-relaxed text-justify">
+        <p className="mb-10 font-poppins  text-black leading-relaxed text-justify">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eius
           optio eveniet natus, facilis, iusto veniam culpa reprehenderit numquam
           quod placeat eos aspernatur error rerum suscipit laudantium illo
@@ -190,9 +189,33 @@ const Tentang = () => {
           illum dolorum facilis perspiciatis sapiente, minima tenetur voluptates
           aperiam deserunt totam reprehenderit ipsum exercitationem.
         </p>
+        </div>  
+        <section className="bg-white p-6 m-4 rounded-lg shadow-md mt-1 w-full">
+          <div className="text-black text-2xl md:text-4xl lg:text-lg mb-4 p-4 font-poppins">
+            <h1 className="text-[#0061FF] underline text-2xl p-2 text-center font-bold ">
+              VISI HIMTI
+            </h1>
+            <p>
+              Menjadikan HIMTI BINUS University sebagai Himpunan Mahasiswa yang
+              dikenal se-Asia Tenggara pada tahun 2025
+            </p>
+            <h1 className="text-[#0061FF] underline text-2xl p-2 text-center font-bold ">
+              MISI HIMTI
+            </h1>
+            <p>
+              Memperkuat ikatan antar sesama anggota keluarga HIMTI dengan
+              pengetahuan, pengalaman, dan nilai-nilai baik dalam membentuk satu
+              keluarga HIMTI yang solid. Menanamkan dan mengembangkan sikap
+              profesional dalam setiap individu di dalam HIMTI, agar siap
+              menghadapi dunia industri, karir, dan pengembangan lingkungan
+              global. Menjunjung tinggi rasa nasionalisme, menunjukkan bahwa
+              HIMTI berbakti pada Indonesia.
+            </p>
+          </div>
+        </section>
 
         <section className="bg-white p-6 rounded-lg shadow-md mt-1 w-full">
-          <h2 className="text-3xl font-bold mb-6 text-center text-black underline">
+          <h2 className="text-3xl font-bold mb-6 text-center text-[#0061FF] underline">
             Struktur Keanggotaan HIMTI
           </h2>
           <div className="flex flex-col items-center">

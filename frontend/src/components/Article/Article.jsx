@@ -63,7 +63,7 @@ const Article = ({ productsFromBackend }) => {
       <div className="bg-[#a5c2fe] p-10 rounded-3xl border-8 border-white w-full max-w-7xl mx-5">
         <div className="text-black font-poppins  min-h-screen p-8">
           <h1 className="text-5xl underline font-bold text-center mb-4">
-            Kumpulan Artikel Kami
+            Kumpulan Artikel
           </h1>
           <p className="text-center text-black mb-12">
             Himpunan Mahasiswa Teknik Informatika

@@ -8,8 +8,8 @@ const Banner = () => {
         <div className="container px-20 mx-auto">
           <div className="row justify-center">
             <div className="col-xl-8">
-              <div className="text-black text-2xl md:text-4xl lg:text-5xl font-bold mb-4 font-poppins">
-                "PERIODE 2023 / 2024"
+              <div className="text-[#0061FF] md:text-5xl lg:text-5xl mb-4 p-4 font-poppins">
+               <h1>BIRU BIRU SATU ! 💪</h1>
               </div>
               <img
                 src={himti}

@@ -54,9 +54,9 @@ const Event = () => {
     <div className="min-h-screen flex flex-col items-center justify-center p-5">
       <div className="bg-[#a5c2fe] p-10 rounded-3xl border-8 border-white w-full max-w-7xl mx-5">
         <div className="flex justify-between items-center mb-5">
-          <button onClick={() => changeMonth(-1)} className="bg-blue-500 text-black px-3 py-1 rounded">Prev</button>
+          <button onClick={() => changeMonth(-1)} className="bg-white text-black px-3 py-1 rounded">Prev</button>
           <h1 className="text-xl">{currentDate.toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}</h1>
-          <button onClick={() => changeMonth(1)} className="bg-blue-500 text-black px-3 py-1 rounded">Next</button>
+          <button onClick={() => changeMonth(1)} className="bg-white text-black px-3 py-1 rounded">Next</button>
         </div>
         <div className="grid grid-cols-7 gap-4">
           <div className="font-bold">Sun</div>
