@@ -196,7 +196,7 @@ const Tentang = () => {
               VISI HIMTI
             </h1>
             <p>
-              Menjadikan HIMTI BINUS University sebagai Himpunan Mahasiswa yang
+              Menjadikan HIMTI Universitas Gunadarma sebagai Himpunan Mahasiswa yang
               dikenal se-Asia Tenggara pada tahun 2025
             </p>
             <h1 className="text-[#0061FF] underline text-2xl p-2 text-center font-bold ">
